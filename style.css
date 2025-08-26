@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Delius&family=Delius+Swash+Caps&family=MedievalSharp&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #ffe5f0;
+    color: #4b3644;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1{
+    font-family: "Cinzel Decorative",sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 2rem;
+    color: #6a4a58;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 40px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: #b48e7b;
+    font-weight: bold;
+    transition: color 0.3s;
+
+}
+
+nav a:hover{
+    color:#b48e7b;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section{
+    margin-bottom: 60px;
+    
+}
+
+#about-me{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#about-me img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid #8f6277;
+
+}
+
+#about-me p {
+    flex: 1;
+    text-align: left;
+    color: #4b3644;
+}
+
+h2{
+    color: #8f6277;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;    
+}
+
+form label{
+    color: #8f6277;
+}
+
+form input{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button{
+    background-color: #8f6277;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+
+}
+
+form button:hover{
+    background-color: #c594aa;
+}
+
+footer{
+    color: #8f6277;
+    text-align: center;
+}
+
+
+
+
+
+
+
